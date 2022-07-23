@@ -46,10 +46,7 @@ export const NotionPageHeader: React.FC<{
     <header className='notion-header'>
       <div className='notion-nav-header'>
         {/* <Breadcrumbs block={block} rootOnly={true} /> */}
-        <a
-          className='p-3 rounded hover:bg-gray-500/20'
-          href='https://cnguyen.de'
-        >
+        <a class='p-3 rounded hover:bg-gray-500/20' href='https://cnguyen.de'>
           Home
         </a>
         <div className='notion-nav-header-rhs breadcrumbs'>
@@ -62,7 +59,11 @@ export const NotionPageHeader: React.FC<{
               if (link.pageId) {
                 return (
                   <components.PageLink
-                    href={mapPageUrl(link.pageId)}
+                    href={
+                      mapPageUrl(link.pageId) === '/'
+                        ? '/blog'
+                        : mapPageUrl(link.pageId)
+                    }
                     key={index}
                     className={cs(styles.navLink, 'breadcrumb', 'button')}
                   >
@@ -72,7 +73,7 @@ export const NotionPageHeader: React.FC<{
               } else {
                 return (
                   <components.Link
-                    href={link.url}
+                    href={link.url === '/' ? '/blog' : link.url}
                     key={index}
                     className={cs(styles.navLink, 'breadcrumb', 'button')}
                   >
