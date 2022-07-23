@@ -25,12 +25,12 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: 'https://www.cnguyen.de/avatar.webp',
+  defaultPageCover: 'https://transitivebullsh.it/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
-  isPreviewImageSupportEnabled: true,
+  isPreviewImageSupportEnabled: false,
 
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
@@ -56,5 +56,9 @@ export default siteConfig({
       title: 'Blog',
       pageId: '5dbb6e74b5f04227930f218ac349530c'
     }
+    // {
+    //   title: 'test',
+    //   pageId: '6e3f7e08a95c40a8848b15c101550ae3'
+    // }
   ]
 })
