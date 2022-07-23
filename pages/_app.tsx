@@ -25,13 +25,7 @@ import type { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
 import posthog from 'posthog-js'
 
-import {
-  isServer,
-  fathomId,
-  fathomConfig,
-  posthogId,
-  posthogConfig
-} from 'lib/config'
+import { fathomId, fathomConfig, posthogId, posthogConfig } from 'lib/config'
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
