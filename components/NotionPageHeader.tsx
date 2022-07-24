@@ -46,7 +46,10 @@ export const NotionPageHeader: React.FC<{
     <header className='notion-header'>
       <div className='notion-nav-header'>
         {/* <Breadcrumbs block={block} rootOnly={true} /> */}
-        <a class='p-3 rounded hover:bg-gray-500/20' href='https://cnguyen.de'>
+        <a
+          className='p-3 rounded hover:bg-gray-500/20'
+          href='https://cnguyen.de'
+        >
           Home
         </a>
         <div className='notion-nav-header-rhs breadcrumbs'>
