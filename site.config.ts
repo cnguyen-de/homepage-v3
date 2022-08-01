@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'cnguyen.de',
+  name: 'Chi Nguyen Homepage',
   domain: 'cnguyen.de',
   author: 'Chi Nguyen',
 
   // open graph metadata (optional)
-  description: 'Chi Nguyen Personal Website',
+  description: 'Consultant and Frontend architect who writes technical blogs',
 
   // social usernames (optional)
   twitter: 'chistweets',
