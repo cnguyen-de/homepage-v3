@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Chi Nguyen',
 
   // open graph metadata (optional)
-  description: 'Consultant and Frontend architect who writes technical blogs',
+  description: '',
 
   // social usernames (optional)
   twitter: 'chistweets',
