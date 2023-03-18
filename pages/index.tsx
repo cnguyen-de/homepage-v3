@@ -20,15 +20,19 @@ export default function Home() {
         <meta name='twitter:title' content="Chi Nguyen's Homepage" />
         <meta
           name='twitter:description'
-          content='Chi Nguyen - Consultant and Frontend Architect'
+          content='Chi Nguyen - Software engineer and Frontend Architect'
         />
         <meta name='twitter:creator' content='@chistweets' />
         <meta property='og:url' content='https://cnguyen.de/' />
         <meta property='og:type' content='article' />
         <meta property='og:title' content="Chi Nguyen's Homepage" />
         <meta
+          property='og:image'
+          content='https://www.cnguyen.de/avatar.webp'
+        />
+        <meta
           property='og:description'
-          content='Chi Nguyen - Consultant and Frontend Architect'
+          content='Chi Nguyen - Software engineer and Frontend Architect'
         />
       </Head>
       <main className='text-center'>
@@ -37,8 +41,8 @@ export default function Home() {
           <h1 className='text-center text-gray-200 text-3xl sm:text-6xl lg:text-7xl leading-none tracking-tight mb-4'>
             Chi Nguyen
           </h1>
-          <p className='text-center text-base px-2 mt-2 xs:text-xl sm:text-2xl xl:text-3xl font-light text-gray-400'>
-            Consultant & Frontend architect at Novatec GmbH
+          <p className='text-center text-sm px-2 mt-2 xs:text-base sm:text-xl xl:text-2xl font-light text-gray-400'>
+            Software engineer & Frontend architect at Mercedes-Benz.io
           </p>
           <div className='mt-4'>
             <Link href='/blog' key='blog'>
