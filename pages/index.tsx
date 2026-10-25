@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Avatar from '../components/Avatar'
 import styles from '../styles/Home.module.css'
 import React from 'react'
@@ -42,14 +41,19 @@ export default function Home() {
             Chi Nguyen
           </h1>
           <p className='text-center text-sm px-2 mt-2 xs:text-base sm:text-xl xl:text-2xl font-light text-gray-400'>
-            Software engineer & Frontend architect at Mercedes-Benz.io
+            Freelance Software Engineer specialized in architecture, AI,
+            javascript with focus in speed and quality. Currently working on
+            state of the art AI at think-cell
           </p>
           <div className='mt-4'>
-            <Link href='/blog' key='blog'>
-              <a className=' text-sky-300 xs:text-xl sm:text-2xl xl:text-3xl hover:text-sky-400 hover:underline'>
-                Blog
-              </a>
-            </Link>
+            <a
+              href='https://may-solutions.io'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-sky-300 xs:text-xl sm:text-2xl xl:text-3xl hover:text-sky-400 hover:underline'
+            >
+              May Solutions
+            </a>
           </div>
         </div>
       </main>
