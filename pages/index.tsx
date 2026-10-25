@@ -40,7 +40,7 @@ export default function Home() {
           <h1 className='text-center text-gray-200 text-3xl sm:text-6xl lg:text-7xl leading-none tracking-tight mb-4'>
             Chi Nguyen
           </h1>
-          <p className='text-center text-sm px-2 mt-2 xs:text-base sm:text-xl xl:text-2xl font-light text-gray-400'>
+          <p className='max-w-3xl mx-auto text-center text-sm px-2 mt-2 xs:text-base sm:text-xl xl:text-2xl font-light text-gray-400 [text-wrap:balance]'>
             Freelance Software Engineer specialized in architecture, AI,
             javascript with focus in speed and quality. Currently working on
             state of the art AI at think-cell
